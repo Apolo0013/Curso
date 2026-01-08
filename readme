@@ -1,0 +1,136 @@
+# Projeto Full Stack – Front-end e Back-end
+
+## 📌 Descrição do Projeto
+
+Este projeto foi desenvolvido como parte de um curso de desenvolvimento **Full Stack**, utilizando tecnologias modernas tanto no **front-end** quanto no **back-end**. O sistema tem como principal funcionalidade o **cadastro e login de usuários**, com autenticação segura e persistência de dados em banco relacional.
+
+O objetivo do projeto é aplicar, na prática, conceitos fundamentais de desenvolvimento web, integração entre front-end e back-end, autenticação de usuários e manipulação de banco de dados.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Front-end
+
+* **TypeScript**
+* **HTML5**
+* **CSS3**
+* Framework/Biblioteca front-end (ex: React, Angular ou Vue – conforme o curso)
+* Consumo de API REST
+
+### Back-end
+
+* **Node.js**
+* **TypeScript**
+* **Express.js**
+* **JWT (JSON Web Token)** para autenticação
+* **Bcrypt** para criptografia de senhas
+
+### Banco de Dados
+
+* **PostgreSQL**
+* ORM ou Query Builder (ex: Prisma, TypeORM ou Sequelize)
+
+---
+
+## 🔐 Funcionalidades do Sistema
+
+* Cadastro de usuários
+
+  * Nome
+  * E-mail
+  * Senha (criptografada)
+
+* Login de usuários
+
+  * Autenticação via e-mail e senha
+  * Geração de token JWT
+
+* Validação de dados
+
+* Proteção de rotas autenticadas
+
+* Integração completa entre front-end e back-end
+
+---
+
+## 🗂️ Estrutura do Projeto
+
+```
+projeto-fullstack/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── models/
+│   │   └── middlewares/
+│   ├── package.json
+│   └── tsconfig.json
+│
+└── README.md
+```
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+* Node.js instalado
+* PostgreSQL instalado e configurado
+* Gerenciador de pacotes (npm ou yarn)
+
+### Back-end
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### Front-end
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 🧪 Testes
+
+* Testes manuais via interface
+* Testes de rotas utilizando ferramentas como **Postman** ou **Insomnia**
+
+---
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram aplicados e aprendidos conceitos como:
+
+* Arquitetura MVC
+* APIs REST
+* Autenticação e autorização
+* Segurança de senhas
+* Integração com banco de dados PostgreSQL
+* Uso de TypeScript em aplicações Full Stack
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido para fins educacionais como parte de um curso de desenvolvimento Full Stack.
+
+---
+
+## 📄 Licença
+
+Este projeto é de uso educacional e não possui fins comerciais.
