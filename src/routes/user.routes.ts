@@ -8,9 +8,16 @@ import { Router } from "express";
 // antes de permitir o acesso à rota.
 import { authMiddleware } from "../middlewares/authMidlleware";
 
+import { validateEmailMiddleware } from "../middlewares/validateEmailMiddleware";
+
+import {UserController} from "../controllers/UserController";
 // Cria uma nova instância do Router.
 const router = Router();
 
+
+const userController = new UserController();
+
+router.post("/users", validateEmailMiddleware, userController.create);
 // Rota protegida que retorna os dados do usuário autenticado.
 // Método: GET
 // Endpoint final: /user/me
